@@ -1,0 +1,6 @@
+@StoreCard.Api_HostAddress = http://localhost:5029
+
+GET {{StoreCard.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
