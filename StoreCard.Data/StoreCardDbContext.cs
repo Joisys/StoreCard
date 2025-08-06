@@ -11,6 +11,15 @@ namespace StoreCard.Data
         }
 
         public DbSet<User> Users => Set<User>();
+        public DbSet<UserTransaction> UserTransactions => Set<UserTransaction>();
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+        }
+
+
 
         public void MigrateDatabase()
         {
@@ -25,14 +34,6 @@ namespace StoreCard.Data
         public async Task<int> SaveChangesAsync()
         {
             return await base.SaveChangesAsync();
-        }
-
-        //public DbSet<UserTransaction> Transactions => Set<UserTransaction>();
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-
         }
     }
 }

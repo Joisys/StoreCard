@@ -1,7 +1,11 @@
-﻿namespace StoreCard.Domain.Entities
+﻿using System.Transactions;
+
+namespace StoreCard.Domain.Entities
 {
     public class User : BaseEntity
     {
         public string FullName { get; set; } = default!;
+
+        public ICollection<UserTransaction> UserTransactions { get; set; } = new List<UserTransaction>();
     }
 }
