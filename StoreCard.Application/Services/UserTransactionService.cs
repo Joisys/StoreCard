@@ -5,7 +5,6 @@ using StoreCard.Application.Interfaces;
 using StoreCard.Data.Interfaces;
 using StoreCard.Domain.Entities;
 using StoreCard.Domain.Enums;
-using System.Linq.Expressions;
 
 namespace StoreCard.Application.Services
 {
@@ -16,16 +15,20 @@ namespace StoreCard.Application.Services
         private readonly IMapper _mapper;
         private readonly ILogger<UserTransactionService> _logger;
 
+        private readonly ITransactionSummaryStrategyFactory _strategyFactory;
+
         public UserTransactionService(
             IUserTransactionRepository transactionRepository,
             IUnitOfWork unitOfWork,
             IMapper mapper,
-            ILogger<UserTransactionService> logger)
+            ILogger<UserTransactionService> logger,
+            ITransactionSummaryStrategyFactory strategyFactory)
         {
             _userTransactionRepository = transactionRepository;
             _unitOfWork = unitOfWork;
             _mapper = mapper;
             _logger = logger;
+            _strategyFactory = strategyFactory;
         }
 
         public async Task<IEnumerable<UserTransactionDto>> GetAllUserTransactionsAsync()
@@ -59,61 +62,10 @@ namespace StoreCard.Application.Services
             return _mapper.Map<UserTransactionDto>(transaction);
         }
 
-        public async Task<IEnumerable<UserTransactionSummaryDto>> GetUserTransactionSummaryAsync(
-            int? userId = null, string? transactionType = null, decimal? threshold = 0)
+        public async Task<IEnumerable<UserTransactionSummaryDto>> GetTransactionSummaryAsync(SummaryType type, decimal? threshold = null)
         {
-            ValidateParameters(userId, transactionType, threshold, out TransactionType? parsedType);
-
-            Expression<Func<UserTransaction, bool>> filter = t =>
-                (!threshold.HasValue || t.Amount > threshold.Value) &&
-                (!parsedType.HasValue || t.Type == parsedType.Value) &&
-                (!userId.HasValue || t.UserId == userId.Value);
-
-            var transactions = await _userTransactionRepository.GetTransactionsByFilterAsync(filter);
-
-            var summary = transactions
-                .GroupBy(t => new { t.UserId, t.Type })
-                .Select(g => new UserTransactionSummaryDto
-                {
-                    UserId = g.Key.UserId,
-                    TransactionType = g.Key.Type.ToString(),
-                    TotalAmount = g.Sum(t => t.Amount)
-                })
-                .ToList();
-
-            return summary;
-        }
-
-        private void ValidateParameters(
-            int? userId,
-            string? transactionType,
-            decimal? threshold,
-            out TransactionType? parsedType)
-        {
-            parsedType = null;
-
-            if (userId.HasValue && userId <= 0)
-            {
-                throw new ArgumentOutOfRangeException(nameof(userId), "User Id must be a positive integer.");
-            }
-
-            if (threshold.HasValue && threshold < 0)
-            {
-                throw new ArgumentOutOfRangeException(nameof(threshold), "Threshold must be non-negative.");
-            }
-
-            if (!string.IsNullOrWhiteSpace(transactionType))
-            {
-                if (Enum.TryParse<TransactionType>(transactionType, true, out var typeEnum))
-                {
-                    parsedType = typeEnum;
-                }
-                else
-                {
-                    _logger.LogWarning("Invalid transaction type provided: {TransactionType}", transactionType);
-                    throw new ArgumentException("Invalid transaction type.", nameof(transactionType));
-                }
-            }
+            var strategy = _strategyFactory.Create(type, threshold);
+            return await strategy.GetSummaryAsync();
         }
 
     }

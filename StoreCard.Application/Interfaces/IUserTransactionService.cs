@@ -1,4 +1,5 @@
 ﻿using StoreCard.Application.Dtos.UserTransaction;
+using StoreCard.Domain.Enums;
 
 namespace StoreCard.Application.Interfaces
 {
@@ -8,6 +9,7 @@ namespace StoreCard.Application.Interfaces
         Task<IEnumerable<UserTransactionDto>> GetAllUserTransactionsAsync();
         Task<UserTransactionDto> CreateUserTransactionAsync(UserTransactionCreateDto dto);
 
-        Task<IEnumerable<UserTransactionSummaryDto>> GetUserTransactionSummaryAsync(int? userId = null, string? transactionType = null, decimal? threshold = 0);
+        Task<IEnumerable<UserTransactionSummaryDto>> GetTransactionSummaryAsync(SummaryType type, decimal? threshold = null);
+
     }
 }

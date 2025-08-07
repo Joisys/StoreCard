@@ -5,6 +5,7 @@ namespace StoreCard.Api.Controllers
 
     using Microsoft.AspNetCore.Mvc;
     using StoreCard.Application.Dtos.UserTransaction;
+    using StoreCard.Domain.Enums;
 
     [ApiController]
     [Route("api/[controller]")]
@@ -67,12 +68,31 @@ namespace StoreCard.Api.Controllers
             return CreatedAtAction(nameof(CreateUserTransaction), new { id = userTransaction.Id }, userTransaction);
         }
 
+        // GET: api/transactions/summary?type=TotalPerUser&threshold=100
         [HttpGet("summary")]
         [ProducesResponseType(typeof(IEnumerable<UserTransactionSummaryDto>), StatusCodes.Status200OK)]
-        public async Task<ActionResult<IEnumerable<UserTransactionSummaryDto>>> GetTransactionSummary([FromQuery] int? userId = null, [FromQuery] string? transactionType = null, [FromQuery] decimal? threshold = null)
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> GetTransactionSummary([FromQuery] string type, [FromQuery] decimal? threshold = null)
         {
-            var result = await _userTransactionService.GetUserTransactionSummaryAsync(userId: userId, transactionType: transactionType, threshold: threshold);
-            return Ok(result);
+            if (!Enum.TryParse<SummaryType>(type, true, out var summaryType))
+            {
+                return BadRequest($"Invalid summary type: {type}. Allowed values: TotalPerUser, TotalPerTransactionType, HighVolume.");
+            }
+
+            try
+            {
+                var summary = await _userTransactionService.GetTransactionSummaryAsync(summaryType, threshold);
+                return Ok(summary);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Internal server error.");
+            }
         }
     }
 

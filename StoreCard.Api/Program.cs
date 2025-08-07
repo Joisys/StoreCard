@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.OpenApi.Models;
 using StoreCard.Application;
+using StoreCard.Application.Interfaces;
+using StoreCard.Application.Services.ServiceFactory;
 using StoreCard.Data;
 
 public class Program
