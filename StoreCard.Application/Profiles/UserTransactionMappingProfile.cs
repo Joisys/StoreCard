@@ -9,7 +9,8 @@ namespace StoreCard.Application.Profiles
         public UserTransactionMappingProfile()
         {
             CreateMap<UserTransaction, UserTransactionDto>();
-            CreateMap<UserTransactionCreateDto, UserTransaction>();
+            CreateMap<UserTransactionCreateDto, UserTransaction>()
+                .ForMember(dest => dest.TransactionDate, opt => opt.MapFrom(src => src.TransactionDate == default ? DateTime.UtcNow : src.TransactionDate));
         }
     }
 }

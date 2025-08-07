@@ -17,8 +17,11 @@ namespace StoreCard.Data
         {
             base.OnModelCreating(modelBuilder);
 
-        }
+            modelBuilder.Entity<UserTransaction>()
+                        .HasIndex(ut => new { ut.UserId, ut.TransactionDate, ut.Amount, ut.Type })
+                        .IsUnique();
 
+        }
 
 
         public void MigrateDatabase()
