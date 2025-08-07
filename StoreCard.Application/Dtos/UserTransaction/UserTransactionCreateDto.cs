@@ -1,4 +1,4 @@
-﻿namespace StoreCard.Domain.Entities
+﻿namespace StoreCard.Application.Dtos.UserTransaction
 {
     public class UserTransactionCreateDto
     {

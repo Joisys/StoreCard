@@ -1,13 +1,11 @@
-﻿using StoreCard.Application.Dtos.User;
+﻿using StoreCard.Application.Dtos.UserTransaction;
 
 namespace StoreCard.Application.Interfaces
 {
     public interface IUserTransactionService
     {
-        Task<UserDto> GetUserAsync(int id);
-        Task<IEnumerable<UserDto>> GetAllUsersAsync();
-        Task<UserDto> CreateUserAsync(UserCreateDto dto);
-        Task<UserDto> UpdateUserAsync(UserUpdateDto dto);
-        Task<bool> DeleteUserAsync(int id);
+        Task<UserTransactionDto> GetUserTransactionAsync(int id);
+        Task<IEnumerable<UserTransactionDto>> GetAllUserTransactionsAsync();
+        Task<UserTransactionDto> CreateUserTransactionAsync(UserTransactionCreateDto dto);
     }
 }
