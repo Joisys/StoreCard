@@ -23,6 +23,7 @@ namespace StoreCard.Data
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IUserTransactionRepository, UserTransactionRepository>();
 
             return services;
         }

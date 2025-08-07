@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D078A92-B1D4-49B3-8471-898F3409361F}|StoreCard.Api\\StoreCard.Api.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D078A92-B1D4-49B3-8471-898F3409361F}|StoreCard.Api\\StoreCard.Api.csproj|solutionrelative:storecard.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Data\\Migrations\\20250807114407_UserTransactionTable_UpdatedForTransactionType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StoreCard.Data\\Migrations\\20250807114407_UserTransactionTable_UpdatedForTransactionType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\dtos\\usertransaction\\usertransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\dtos\\usertransaction\\usertransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\dtos\\usertransaction\\usertransactioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\dtos\\usertransaction\\usertransactioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36485E36-452D-48EF-8417-F114510ADC09}|StoreCard\\StoreCard.Domain.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36485E36-452D-48EF-8417-F114510ADC09}|StoreCard\\StoreCard.Domain.csproj|solutionrelative:storecard\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\interfaces\\iusertransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\interfaces\\iusertransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7024C746-2E4B-4A85-8E48-7BFDDE7C2467}|StoreCard.Data\\StoreCard.Data.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.data\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7024C746-2E4B-4A85-8E48-7BFDDE7C2467}|StoreCard.Data\\StoreCard.Data.csproj|solutionrelative:storecard.data\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7024C746-2E4B-4A85-8E48-7BFDDE7C2467}|StoreCard.Data\\StoreCard.Data.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.data\\repository\\usertransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7024C746-2E4B-4A85-8E48-7BFDDE7C2467}|StoreCard.Data\\StoreCard.Data.csproj|solutionrelative:storecard.data\\repository\\usertransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7024C746-2E4B-4A85-8E48-7BFDDE7C2467}|StoreCard.Data\\StoreCard.Data.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.data\\storecarddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7024C746-2E4B-4A85-8E48-7BFDDE7C2467}|StoreCard.Data\\StoreCard.Data.csproj|solutionrelative:storecard.data\\storecarddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +51,118 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Api\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "StoreCard.Api\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Api\\Controllers\\UserController.cs",
-              "RelativeToolTip": "StoreCard.Api\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAhAAAAAAAAAA==",
+              "Title": "20250807114407_UserTransactionTable_UpdatedForTransactionType.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Data\\Migrations\\20250807114407_UserTransactionTable_UpdatedForTransactionType.cs",
+              "RelativeDocumentMoniker": "StoreCard.Data\\Migrations\\20250807114407_UserTransactionTable_UpdatedForTransactionType.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Data\\Migrations\\20250807114407_UserTransactionTable_UpdatedForTransactionType.cs",
+              "RelativeToolTip": "StoreCard.Data\\Migrations\\20250807114407_UserTransactionTable_UpdatedForTransactionType.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T09:00:48.757Z",
+              "WhenOpened": "2025-08-07T11:44:07.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserTransactionCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Dtos\\UserTransaction\\UserTransactionCreateDto.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Dtos\\UserTransaction\\UserTransactionCreateDto.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Dtos\\UserTransaction\\UserTransactionCreateDto.cs",
+              "RelativeToolTip": "StoreCard.Application\\Dtos\\UserTransaction\\UserTransactionCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T11:40:58.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Dtos\\User\\UserDto.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Dtos\\User\\UserDto.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Dtos\\User\\UserDto.cs",
+              "RelativeToolTip": "StoreCard.Application\\Dtos\\User\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T11:38:06.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserTransactionDto.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Dtos\\UserTransaction\\UserTransactionDto.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Dtos\\UserTransaction\\UserTransactionDto.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Dtos\\UserTransaction\\UserTransactionDto.cs",
+              "RelativeToolTip": "StoreCard.Application\\Dtos\\UserTransaction\\UserTransactionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T11:37:43.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserTransactionService.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Interfaces\\IUserTransactionService.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Interfaces\\IUserTransactionService.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Interfaces\\IUserTransactionService.cs",
+              "RelativeToolTip": "StoreCard.Application\\Interfaces\\IUserTransactionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T11:36:00.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Data\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "StoreCard.Data\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Data\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "StoreCard.Data\\ServiceCollectionExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T11:35:33.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserTransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Data\\Repository\\UserTransactionRepository.cs",
+              "RelativeDocumentMoniker": "StoreCard.Data\\Repository\\UserTransactionRepository.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Data\\Repository\\UserTransactionRepository.cs",
+              "RelativeToolTip": "StoreCard.Data\\Repository\\UserTransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T11:32:47.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "StoreCard\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard\\Entities\\User.cs",
+              "RelativeToolTip": "StoreCard\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T11:29:44.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StoreCardDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Data\\StoreCardDbContext.cs",
+              "RelativeDocumentMoniker": "StoreCard.Data\\StoreCardDbContext.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Data\\StoreCardDbContext.cs",
+              "RelativeToolTip": "StoreCard.Data\\StoreCardDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T11:30:09.388Z",
               "EditorCaption": ""
             }
           ]
