@@ -30,8 +30,4 @@
 		<ProjectReference Include="..\StoreCard\StoreCard.Domain.csproj" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="Repository\" />
-	</ItemGroup>
-
 </Project>
