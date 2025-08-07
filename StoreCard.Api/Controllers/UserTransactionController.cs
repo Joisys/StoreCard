@@ -66,6 +66,14 @@ namespace StoreCard.Api.Controllers
 
             return CreatedAtAction(nameof(CreateUserTransaction), new { id = userTransaction.Id }, userTransaction);
         }
+
+        [HttpGet("summary")]
+        [ProducesResponseType(typeof(IEnumerable<UserTransactionSummaryDto>), StatusCodes.Status200OK)]
+        public async Task<ActionResult<IEnumerable<UserTransactionSummaryDto>>> GetTransactionSummary([FromQuery] int? userId = null, [FromQuery] string? transactionType = null, [FromQuery] decimal? threshold = null)
+        {
+            var result = await _userTransactionService.GetUserTransactionSummaryAsync(userId: userId, transactionType: transactionType, threshold: threshold);
+            return Ok(result);
+        }
     }
 
 }

@@ -19,20 +19,42 @@ namespace StoreCard.Data.Repository
             return await _repository.AddAsync(entity);
         }
 
-        public async Task<IEnumerable<UserTransaction>> GetUserTransactionsList(Func<IQueryable<UserTransaction>, IQueryable<UserTransaction>>? include = null)
+        public async Task<IEnumerable<UserTransaction>> GetUserTransactionsList(
+            Func<IQueryable<UserTransaction>, IQueryable<UserTransaction>>? include = null)
         {
-            var query = include != null ? include(_repository.GetQueryable()) : _repository.GetQueryable();
+            var query = include != null
+                ? include(_repository.GetQueryable())
+                : _repository.GetQueryable();
+
             return await query.ToListAsync();
         }
 
-        public async Task<UserTransaction?> GetQueryById(int id, IEnumerable<Expression<Func<UserTransaction, object>>>? includes = null,
+        public async Task<UserTransaction?> GetQueryById(
+            int id,
+            IEnumerable<Expression<Func<UserTransaction, object>>>? includes = null,
             bool asNoTracking = false)
         {
-            var UserTransaction = await _repository.GetQueryable(x => x.Id == id, includes, asNoTracking)
+            var userTransaction = await _repository
+                .GetQueryable(x => x.Id == id, includes, asNoTracking)
                 .FirstOrDefaultAsync();
 
-            return UserTransaction ?? throw new InvalidOperationException($"UserTransaction with Id {id} not found.");
+            return userTransaction ?? throw new InvalidOperationException($"UserTransaction with Id {id} not found.");
         }
 
+        public async Task<IEnumerable<UserTransaction>> GetTransactionsByFilterAsync(
+            Expression<Func<UserTransaction, bool>> filter,
+            Func<IQueryable<UserTransaction>, IQueryable<UserTransaction>>? include = null)
+        {
+            var query = _repository.GetQueryable();
+
+            if (include != null)
+                query = include(query);
+
+            if (filter != null)
+                query = query.Where(filter);
+
+            return await query.ToListAsync();
+        }
     }
+
 }

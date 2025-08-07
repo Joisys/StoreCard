@@ -7,5 +7,7 @@ namespace StoreCard.Application.Interfaces
         Task<UserTransactionDto> GetUserTransactionAsync(int id);
         Task<IEnumerable<UserTransactionDto>> GetAllUserTransactionsAsync();
         Task<UserTransactionDto> CreateUserTransactionAsync(UserTransactionCreateDto dto);
+
+        Task<IEnumerable<UserTransactionSummaryDto>> GetUserTransactionSummaryAsync(int? userId = null, string? transactionType = null, decimal? threshold = 0);
     }
 }

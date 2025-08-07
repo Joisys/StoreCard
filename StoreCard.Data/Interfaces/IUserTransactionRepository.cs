@@ -9,8 +9,9 @@ namespace StoreCard.Data.Interfaces
 
         Task<IEnumerable<UserTransaction>> GetUserTransactionsList(Func<IQueryable<UserTransaction>, IQueryable<UserTransaction>> include = null!);
 
-        Task<UserTransaction?> GetQueryById(int id, IEnumerable<Expression<Func<UserTransaction, object>>>? includes = null,
-                    bool asNoTracking = false);
-
+        Task<UserTransaction?> GetQueryById(int id, IEnumerable<Expression<Func<UserTransaction, object>>>? includes = null, bool asNoTracking = false);
+        Task<IEnumerable<UserTransaction>> GetTransactionsByFilterAsync(
+            Expression<Func<UserTransaction, bool>> filter,
+            Func<IQueryable<UserTransaction>, IQueryable<UserTransaction>>? include = null);
     }
 }
