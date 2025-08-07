@@ -70,7 +70,7 @@ namespace StoreCard.Application.Services
             if (user == null)
                 return false;
 
-            await _userRepository.UpdateUserAsync(user);
+            await _userRepository.RemoveUserAsync(user);
             await _unitOfWork.SaveChangesAsync();
 
             return true;

@@ -2,6 +2,6 @@
 {
     public class UserCreateDto
     {
-        public string Name { get; set; } = default!;
+        public string FullName { get; set; } = default!;
     }
 }

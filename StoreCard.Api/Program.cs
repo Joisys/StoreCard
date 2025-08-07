@@ -1,11 +1,12 @@
-
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.OpenApi.Models;
 using StoreCard.Application;
 using StoreCard.Data;
 
-internal class Program
+public class Program
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
 
@@ -33,8 +34,8 @@ internal class Program
             });
         });
 
+        builder.Services.RegisterDataRepository(builder.Configuration);
         builder.Services.RegisterApplicationServices();
-        builder.Services.RegisterDataRepository();
 
         var app = builder.Build();
 

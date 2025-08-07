@@ -8,14 +8,12 @@ namespace StoreCard.Data
     public class Repository<T> : IRepository<T> where T : class
     {
         protected readonly DbSet<T> _dbSet;
-        protected readonly DbContext _context;
-        protected readonly IMemoryCache _memoryCache;
+        protected readonly IStoreCardDbContext _context;
 
-        public Repository(DbContext context, IMemoryCache memoryCache)
+        public Repository(IStoreCardDbContext context)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
             _dbSet = context.Set<T>();
-            _memoryCache = memoryCache ?? throw new ArgumentNullException(nameof(memoryCache));
         }
 
         public async Task<T> AddAsync(T entity)
