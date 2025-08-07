@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{919253BA-291D-4559-9661-B312EC93FABA}|StoreCard.Tests\\StoreCard.Tests.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.tests\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{919253BA-291D-4559-9661-B312EC93FABA}|StoreCard.Tests\\StoreCard.Tests.csproj|solutionrelative:storecard.tests\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36485E36-452D-48EF-8417-F114510ADC09}|StoreCard\\StoreCard.Domain.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard\\enums\\summarytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36485E36-452D-48EF-8417-F114510ADC09}|StoreCard\\StoreCard.Domain.csproj|solutionrelative:storecard\\enums\\summarytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ServiceCollectionExtension.cs",
-              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\ServiceCollectionExtension.cs",
-              "RelativeDocumentMoniker": "StoreCard.Application\\ServiceCollectionExtension.cs",
-              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\ServiceCollectionExtension.cs",
-              "RelativeToolTip": "StoreCard.Application\\ServiceCollectionExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Title": "UserServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Tests\\UserServiceTests.cs",
+              "RelativeDocumentMoniker": "StoreCard.Tests\\UserServiceTests.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Tests\\UserServiceTests.cs",
+              "RelativeToolTip": "StoreCard.Tests\\UserServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T18:55:02.167Z",
+              "WhenOpened": "2025-08-07T19:23:57.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SummaryType.cs",
-              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard\\Enums\\SummaryType.cs",
-              "RelativeDocumentMoniker": "StoreCard\\Enums\\SummaryType.cs",
-              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard\\Enums\\SummaryType.cs",
-              "RelativeToolTip": "StoreCard\\Enums\\SummaryType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "StoreCard.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T18:54:43.648Z",
+              "WhenOpened": "2025-08-07T19:09:45.496Z",
               "EditorCaption": ""
             }
           ]

@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\StoreCard.Api",
+    "\\StoreCard.Api\\Controllers",
+    "\\StoreCard.Application",
+    "\\StoreCard.Application\\Dtos",
+    "\\StoreCard.Application\\Dtos\\UserTransaction",
+    "\\StoreCard.Application\\Services",
+    "\\StoreCard.Application\\Services\\ServiceFactory",
+    "\\StoreCard.Tests",
+    "\\StoreCard.Tests\\UnitTests"
   ],
-  "SelectedNode": "\\C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard",
+  "SelectedNode": "\\StoreCard.Tests\\UnitTests\\UserServiceTests.cs",
   "PreviewInSolutionExplorer": false
 }
