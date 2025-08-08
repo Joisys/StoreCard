@@ -7,12 +7,12 @@ namespace StoreCard.Api.Controllers
 
     [ApiController]
     [Route("api/[controller]")]
-    public class UserController : ControllerBase
+    public class UsersController : ControllerBase
     {
-        private readonly ILogger<UserController> _logger;
+        private readonly ILogger<UsersController> _logger;
         private readonly IUserService _userService;
 
-        public UserController(IUserService userService, ILogger<UserController> logger)
+        public UsersController(IUserService userService, ILogger<UsersController> logger)
         {
             _userService = userService;
             _logger = logger;

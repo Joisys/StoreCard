@@ -5,7 +5,7 @@ using StoreCard.Application.Services;
 using StoreCard.Data.Interfaces;
 using StoreCard.Domain.Entities;
 
-namespace StoreCard.Tests.UnitTests
+namespace StoreCard.Tests
 {
     [TestFixture]
     public class UserServiceTests
