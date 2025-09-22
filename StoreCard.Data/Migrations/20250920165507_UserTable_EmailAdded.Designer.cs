@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using StoreCard.Data;
 
@@ -11,9 +12,11 @@ using StoreCard.Data;
 namespace StoreCard.Data.Migrations
 {
     [DbContext(typeof(StoreCardDbContext))]
-    partial class StoreCardDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250920165507_UserTable_EmailAdded")]
+    partial class UserTable_EmailAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

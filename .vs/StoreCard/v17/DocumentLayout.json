@@ -1,12 +1,330 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\dtos\\usertransaction\\usertransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\dtos\\usertransaction\\usertransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{919253BA-291D-4559-9661-B312EC93FABA}|StoreCard.Tests\\StoreCard.Tests.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.tests\\usertransactionservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{919253BA-291D-4559-9661-B312EC93FABA}|StoreCard.Tests\\StoreCard.Tests.csproj|solutionrelative:storecard.tests\\usertransactionservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D078A92-B1D4-49B3-8471-898F3409361F}|StoreCard.Api\\StoreCard.Api.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.api\\controllers\\usertransactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D078A92-B1D4-49B3-8471-898F3409361F}|StoreCard.Api\\StoreCard.Api.csproj|solutionrelative:storecard.api\\controllers\\usertransactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\profiles\\usertransactionmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\profiles\\usertransactionmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\services\\usertransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\services\\usertransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\services\\servicefactory\\totalamountpertypestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\services\\servicefactory\\totalamountpertypestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\services\\servicefactory\\highvolumetransactionstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\services\\servicefactory\\highvolumetransactionstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\dtos\\usertransaction\\usertransactionsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\dtos\\usertransaction\\usertransactionsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\interfaces\\iusertransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\interfaces\\iusertransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\interfaces\\itransactionsummarystrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\interfaces\\itransactionsummarystrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\interfaces\\itransactionsummarystrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\interfaces\\itransactionsummarystrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\services\\servicefactory\\transactionsummarystrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\services\\servicefactory\\transactionsummarystrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\services\\servicefactory\\totalamountperuserstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\services\\servicefactory\\totalamountperuserstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.application\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83297D8-3DA2-4720-8F50-63EB428B530D}|StoreCard.Application\\StoreCard.Application.csproj|solutionrelative:storecard.application\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D078A92-B1D4-49B3-8471-898F3409361F}|StoreCard.Api\\StoreCard.Api.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D078A92-B1D4-49B3-8471-898F3409361F}|StoreCard.Api\\StoreCard.Api.csproj|solutionrelative:storecard.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D078A92-B1D4-49B3-8471-898F3409361F}|StoreCard.Api\\StoreCard.Api.csproj|c:\\users\\getjo\\source\\repos\\joisys\\storecard\\storecard.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D078A92-B1D4-49B3-8471-898F3409361F}|StoreCard.Api\\StoreCard.Api.csproj|solutionrelative:storecard.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserTransactionServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Tests\\UserTransactionServiceTests.cs",
+              "RelativeDocumentMoniker": "StoreCard.Tests\\UserTransactionServiceTests.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Tests\\UserTransactionServiceTests.cs",
+              "RelativeToolTip": "StoreCard.Tests\\UserTransactionServiceTests.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAnwFsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:20:01.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserTransactionsController.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Api\\Controllers\\UserTransactionsController.cs",
+              "RelativeDocumentMoniker": "StoreCard.Api\\Controllers\\UserTransactionsController.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Api\\Controllers\\UserTransactionsController.cs",
+              "RelativeToolTip": "StoreCard.Api\\Controllers\\UserTransactionsController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwDwAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:19:38.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserTransactionMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Profiles\\UserTransactionMappingProfile.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Profiles\\UserTransactionMappingProfile.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Profiles\\UserTransactionMappingProfile.cs",
+              "RelativeToolTip": "StoreCard.Application\\Profiles\\UserTransactionMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:19:16.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserTransactionSummaryDto.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Dtos\\UserTransaction\\UserTransactionSummaryDto.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Dtos\\UserTransaction\\UserTransactionSummaryDto.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Dtos\\UserTransaction\\UserTransactionSummaryDto.cs",
+              "RelativeToolTip": "StoreCard.Application\\Dtos\\UserTransaction\\UserTransactionSummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:17:04.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserTransactionDto.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Dtos\\UserTransaction\\UserTransactionDto.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Dtos\\UserTransaction\\UserTransactionDto.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Dtos\\UserTransaction\\UserTransactionDto.cs",
+              "RelativeToolTip": "StoreCard.Application\\Dtos\\UserTransaction\\UserTransactionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:16:29.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserTransactionService.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Interfaces\\IUserTransactionService.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Interfaces\\IUserTransactionService.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Interfaces\\IUserTransactionService.cs",
+              "RelativeToolTip": "StoreCard.Application\\Interfaces\\IUserTransactionService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAMwAkAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:15:32.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HighVolumeTransactionStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Services\\ServiceFactory\\HighVolumeTransactionStrategy.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Services\\ServiceFactory\\HighVolumeTransactionStrategy.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Services\\ServiceFactory\\HighVolumeTransactionStrategy.cs",
+              "RelativeToolTip": "StoreCard.Application\\Services\\ServiceFactory\\HighVolumeTransactionStrategy.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAewBEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:13:23.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TotalAmountPerTypeStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Services\\ServiceFactory\\TotalAmountPerTypeStrategy.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Services\\ServiceFactory\\TotalAmountPerTypeStrategy.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Services\\ServiceFactory\\TotalAmountPerTypeStrategy.cs",
+              "RelativeToolTip": "StoreCard.Application\\Services\\ServiceFactory\\TotalAmountPerTypeStrategy.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAewBQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:13:06.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserTransactionService.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Services\\UserTransactionService.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Services\\UserTransactionService.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Services\\UserTransactionService.cs",
+              "RelativeToolTip": "StoreCard.Application\\Services\\UserTransactionService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAjwDcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T15:08:09.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Dtos\\User\\UserDto.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Dtos\\User\\UserDto.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Dtos\\User\\UserDto.cs",
+              "RelativeToolTip": "StoreCard.Application\\Dtos\\User\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:16:10.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TransactionSummaryStrategyFactory.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Services\\ServiceFactory\\TransactionSummaryStrategyFactory.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Services\\ServiceFactory\\TransactionSummaryStrategyFactory.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Services\\ServiceFactory\\TransactionSummaryStrategyFactory.cs",
+              "RelativeToolTip": "StoreCard.Application\\Services\\ServiceFactory\\TransactionSummaryStrategyFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T15:10:53.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TotalAmountPerUserStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Services\\ServiceFactory\\TotalAmountPerUserStrategy.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Services\\ServiceFactory\\TotalAmountPerUserStrategy.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Services\\ServiceFactory\\TotalAmountPerUserStrategy.cs",
+              "RelativeToolTip": "StoreCard.Application\\Services\\ServiceFactory\\TotalAmountPerUserStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:12:33.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ITransactionSummaryStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Interfaces\\ITransactionSummaryStrategy.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Interfaces\\ITransactionSummaryStrategy.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Interfaces\\ITransactionSummaryStrategy.cs",
+              "RelativeToolTip": "StoreCard.Application\\Interfaces\\ITransactionSummaryStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T15:42:52.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITransactionSummaryStrategyFactory.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Interfaces\\ITransactionSummaryStrategyFactory.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Interfaces\\ITransactionSummaryStrategyFactory.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Interfaces\\ITransactionSummaryStrategyFactory.cs",
+              "RelativeToolTip": "StoreCard.Application\\Interfaces\\ITransactionSummaryStrategyFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T15:42:49.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "StoreCard.Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T15:42:47.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "StoreCard.Application\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Application\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "StoreCard.Application\\ServiceCollectionExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:12:09.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Api\\Program.cs",
+              "RelativeDocumentMoniker": "StoreCard.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Api\\Program.cs",
+              "RelativeToolTip": "StoreCard.Api\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwEgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T15:03:31.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "StoreCard.Api\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\getjo\\source\\repos\\Joisys\\StoreCard\\StoreCard.Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "StoreCard.Api\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T14:59:50.19Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

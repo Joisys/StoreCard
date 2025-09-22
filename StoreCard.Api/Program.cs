@@ -1,9 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.OpenApi.Models;
 using StoreCard.Application;
-using StoreCard.Application.Interfaces;
-using StoreCard.Application.Services.ServiceFactory;
 using StoreCard.Data;
 
 public class Program
@@ -11,6 +8,10 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+
+        // Add DbContext from Data project
+        builder.Services.AddDbContext<StoreCardDbContext>(options =>
+            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
         builder.Services.AddControllers();
         builder.Services.AddEndpointsApiExplorer();
@@ -34,6 +35,10 @@ public class Program
                     Url = new Uri("https://jo2web.com")
                 }
             });
+
+            var xmlFilename = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
+            options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
+
         });
 
         builder.Services.RegisterDataRepository(builder.Configuration);
@@ -45,7 +50,11 @@ public class Program
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
-            app.UseSwaggerUI();
+            app.UseSwaggerUI(option =>
+            {
+                option.SwaggerEndpoint("/swagger/v1/swagger.json", "StoreCard API v1");
+                option.RoutePrefix = string.Empty;
+            });
         }
         else
         {
@@ -55,6 +64,7 @@ public class Program
         }
 
         app.UseHttpsRedirection();
+        app.UseStaticFiles();
 
         app.UseAuthorization();
 

@@ -9,8 +9,6 @@ namespace StoreCard.Application.Profiles
         public UserMappingProfile()
         {
             CreateMap<User, UserDto>().ReverseMap();
-            CreateMap<UserCreateDto, User>();
-            CreateMap<UserUpdateDto, User>();
         }
     }
 }

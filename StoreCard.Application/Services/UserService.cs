@@ -37,7 +37,7 @@ namespace StoreCard.Application.Services
             return _mapper.Map<IEnumerable<UserDto>>(users);
         }
 
-        public async Task<UserDto> CreateUserAsync(UserCreateDto dto)
+        public async Task<UserDto> CreateUserAsync(UserDto dto)
         {
             ArgumentNullException.ThrowIfNull(dto);
 
@@ -48,7 +48,7 @@ namespace StoreCard.Application.Services
             return _mapper.Map<UserDto>(user);
         }
 
-        public async Task<UserDto> UpdateUserAsync(UserUpdateDto dto)
+        public async Task<UserDto> UpdateUserAsync(UserDto dto)
         {
             ArgumentNullException.ThrowIfNull(dto);
 

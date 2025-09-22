@@ -58,7 +58,7 @@ namespace StoreCard.Api.Controllers
         [HttpPost]
         [ProducesResponseType(typeof(UserTransactionDto), StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult<UserTransactionDto>> CreateUserTransaction([FromBody] UserTransactionCreateDto dto)
+        public async Task<ActionResult<UserTransactionDto>> CreateUserTransaction([FromBody] UserTransactionDto dto)
         {
             if (dto == null)
                 return BadRequest("User userTransaction data is required.");

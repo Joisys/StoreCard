@@ -6,8 +6,8 @@ namespace StoreCard.Application.Interfaces
     {
         Task<UserDto> GetUserAsync(int id);
         Task<IEnumerable<UserDto>> GetAllUsersAsync();
-        Task<UserDto> CreateUserAsync(UserCreateDto dto);
-        Task<UserDto> UpdateUserAsync(UserUpdateDto dto);
+        Task<UserDto> CreateUserAsync(UserDto dto);
+        Task<UserDto> UpdateUserAsync(UserDto dto);
         Task<bool> DeleteUserAsync(int id);
     }
 }

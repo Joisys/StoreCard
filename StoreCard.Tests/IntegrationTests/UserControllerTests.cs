@@ -41,7 +41,7 @@ namespace StoreCard.Tests.IntegrationTests
         [Test]
         public async Task CreateUser_ReturnsCreated()
         {
-            var newUser = new UserCreateDto
+            var newUser = new UserDto
             {
                 FullName = "New User Name",
             };

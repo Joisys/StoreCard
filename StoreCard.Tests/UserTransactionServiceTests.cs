@@ -89,7 +89,7 @@ namespace StoreCard.Tests
         public async Task CreateUserTransactionAsync_SavesTransactionAndReturnsDto()
         {
 
-            var createDto = new UserTransactionCreateDto { Amount = 50 };
+            var createDto = new UserTransactionDto { Amount = 50 };
             var transaction = new UserTransaction { Id = 100, Amount = 50 };
             var dto = new UserTransactionDto { Id = 100, Amount = 50 };
 

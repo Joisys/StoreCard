@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Dtos\UserTransaction\UserTransactionCreateDto.cs" />
+    <Compile Remove="Dtos\User\UserCreateDto.cs" />
+    <Compile Remove="Dtos\User\UserUpdateDto.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="15.0.1" />
   </ItemGroup>
 

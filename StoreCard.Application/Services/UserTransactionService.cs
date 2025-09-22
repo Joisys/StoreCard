@@ -49,7 +49,7 @@ namespace StoreCard.Application.Services
             return _mapper.Map<UserTransactionDto>(transaction);
         }
 
-        public async Task<UserTransactionDto> CreateUserTransactionAsync(UserTransactionCreateDto dto)
+        public async Task<UserTransactionDto> CreateUserTransactionAsync(UserTransactionDto dto)
         {
             ArgumentNullException.ThrowIfNull(dto);
 

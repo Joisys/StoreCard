@@ -67,7 +67,7 @@ namespace StoreCard.Tests
         [Test]
         public async Task CreateUserAsync_ValidInput_CreatesUser()
         {
-            var createDto = new UserCreateDto { FullName = "New FullName" };
+            var createDto = new UserDto { FullName = "New FullName" };
             var user = new User { Id = 2, FullName = "New" };
             var userDto = new UserDto { Id = 2, FullName = "New FullName" };
 
@@ -90,15 +90,14 @@ namespace StoreCard.Tests
         [Test]
         public async Task UpdateUserAsync_ValidInput_UpdatesUser()
         {
-            var dto = new UserUpdateDto { Id = 1, FullName = "Updated FullName" };
-            var user = new User { Id = 1, FullName = "Old FullName" };
             var userDto = new UserDto { Id = 1, FullName = "Updated FullName" };
+            var user = new User { Id = 1, FullName = "Old FullName" };
 
-            _userRepository.GetQueryById(dto.Id).Returns(user);
-            _mapper.Map(dto, user);
+            _userRepository.GetQueryById(userDto.Id).Returns(user);
+            _mapper.Map(userDto, user);
             _mapper.Map<UserDto>(user).Returns(userDto);
 
-            var result = await _service.UpdateUserAsync(dto);
+            var result = await _service.UpdateUserAsync(userDto);
 
             await _userRepository.Received(1).UpdateUserAsync(user);
             await _unitOfWork.Received(1).SaveChangesAsync();
