@@ -68,10 +68,10 @@ namespace StoreCard.Api.Controllers
         /// </summary>
         /// <remarks>
         /// Sample request: 
-        /// 
         ///     POST /api/user
         ///     {
-        ///         "fullName": "John Doe"
+        ///         "fullName": "John Doe",
+        ///         "Email": "test@test.com"        
         ///     }
         /// </remarks> 
         /// <param name="user"></param>
